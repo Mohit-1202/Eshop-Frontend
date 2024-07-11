@@ -40,12 +40,21 @@ const Navbar = () => {
                                 {MenuLinks.map((data, index) => (
                                     <li key={index}>
                                         <a href={data.link}
-                                        className='inline-block px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200'> {data.name}</a>
+                                            className='inline-block px-4 font-semibold text-gray-500 hover:text-black dark:hover:text-white duration-200'> {data.name}</a>
                                     </li>
                                 ))}</ul>
                         </div>
                     </div>
-                                <div></div>
+                    <div>
+                        <div>
+                            <input type='text'/>
+                        </div>
+
+
+                        <div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
