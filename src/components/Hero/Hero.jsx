@@ -1,10 +1,9 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
 import Slider from "react-slick";
 import Image1 from "../../assets/hero/headphone.png";
 import Image2 from "../../assets/category/vr.png";
 import Image3 from "../../assets/category/macbook.png";
 import Button from "../Shared/Button";
+import PropTypes from 'prop-types';
 
 const HeroData = [
     {
@@ -92,4 +91,7 @@ const Hero = ({handleOrderPopup}) => {
     )
 }
 
+Hero.propTypes = {
+    handleOrderPopup: PropTypes.string,
+  };
 export default Hero

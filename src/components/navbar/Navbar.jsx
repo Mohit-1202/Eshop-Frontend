@@ -1,6 +1,3 @@
-
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa6";
@@ -44,6 +41,7 @@ const DropdownLinks = [
         link: "/#"
     }
 ]
+// eslint-disable-next-line react/prop-types
 const Navbar = ({handleOrderPopup}) => {
     return (
         <div className='bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
